@@ -1,0 +1,19 @@
+h1{
+    color:purple;
+}
+p{
+    color:deeppink
+}
+/* 
+1. Selector: p(targeting html element)
+2. Declaration : color:deeppink (property and value)
+3.Declaration block: 
+{
+    color:deeppink;
+} 
+
+4. Property: color
+5.Value: deeppink
+
+*/
+

@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(232, 200, 240);
+    color: white;
+
+}
+td{
+    border: 2px solid black;
+    color: black;
+}
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: rgb(222, 136, 136);
+}
+div{
+    background-color: yellow;
+}
+span{
+    background-color: aliceblue;
+}
