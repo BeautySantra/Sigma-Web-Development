@@ -1,0 +1,11 @@
+[href]{
+    color:darkgreen;
+}
+
+input[type="text"]{
+    color:darkorange;
+}
+
+input[type="email"]{
+    color:darkblue;
+}

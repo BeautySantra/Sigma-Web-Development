@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+<link rel="stylesheet" href="04 attributes.css">
+</head>
+<body>
+    <h1>Hello World!!!</h1>
+    <h2>I am Beauty Santra, these are all my social contact: </h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/beautysantra" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.github.com/BeautySantra" target="_blank">GitHub</a></li>
+        <li><a href="https://www.instagram.com/yk._nohara" target="_blank">Instagram</a></li>
+        <li><a href="https://www.twitter.com/@BeautyS60177" target="_blank">Twitter</a></li>
+        <li><a href="https://t.me/Its_me_XianXs" target="_blank">Telegram</a></li>
+        <li><a href="mailto:beautysantra2006@gmail.com" target="_blank">Email</a></li>
+    </ul>
+
+
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <input type="submit" value="Submit">
+
+    <!-- 
+        Attribute selectors are used to select elements based on their attributes and attribute values. 
+        They allow you to target elements that have specific attributes or attribute values, making it easier to apply styles to those elements.
+
+
+
+ 1. Simple Attribute Selector: This selector targets elements that have a specific attribute, regardless of its value. The syntax for this selector is [attribute]. For example, to select all input elements with a type attribute, you would use the following CSS:
+
+ [type] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+  ----------------- The Syntax for an attribute selector is as follows:---------------------------------------------------------
+
+
+  [attribute] {
+    /* CSS properties */
+}
+    In the above syntax, attribute is the name of the attribute you want to target.The CSS properties defined within the curly braces will be applied to all elements that have the specifid attribute.
+
+2.Specific Attribute Selector:----------------------------------
+
+One way is by using type[attribute*=value] for making it more specific.This will select elements of a specific type that have an attribute containing a certain value.
+For example, if you want to target all anchor <a> elements that have an href attribute, you can use the following CSS:
+
+    a[href] {
+        /* CSS properties */
+    }
+    
+    This will apply the specified CSS properties to all anchor elements that have an href attribute, regardless of its value.
+
+
+-->
+    
+</body>
+</html>
