@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+<link rel="stylesheet" href="06 pseudo-class.css">
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <a href="https://www.youtube.com">Open YouTube</a>
+    <input type="text" placeholder="Enter your name">
+    <br>
+<!-- 
+
+Pseudo-classes in CSS are used to define the special state of an element. They allow you to apply styles to elements based on their current state or position in the document tree.
+Pseudo-classes are preceded by a colon (:) and can be used in combination with regular selectors to target specific elements.
+A pseudo-class can be used to style elements when they are in a specific state, such as when a user hovers over a link or when an input field is focused.
+
+
+--------------------------------1. User Action Pseudo-Classes----------------------------------------
+These respond to actions taken by the user, such as hovering, clicking, or focusing on an element.
+
+:hover – Triggers when the user points to an element (e.g., with a mouse).
+
+:active – Triggers while an element is being activated by the user (e.g., during a click).
+
+:focus – Triggers when an element gains focus (e.g., navigating via keyboard Tab or clicking into an input field).
+
+
+
+Example:-
+
+/* Normal state */
+button {
+  background-color: blue;
+  color: white;
+}
+
+/* Hover state */
+button:hover {
+  background-color: darkblue;
+}
+
+/* Active (clicked) state */
+button:active {
+  background-color: navy;
+}
+
+/* Focused input */
+input:focus {
+  border: 2px solid orange;
+  outline: none;
+}
+
+
+
+
+--------------------------------2. Structural & Relation Pseudo-Classes----------------------------------------
+These target elements based on their position in the HTML DOM tree relative to their parent or siblings.
+1. :first-child – Selects the first child element of its parent.
+2. :last-child – Selects the last child element of its parent.
+3. :nth-child(n) – Selects the nth child element of its parent, where n can be a number, keyword, or formula.you can use numbers, formulas(like 2n,2n+1), or keywords(odd,even) to select specific child elements based on their position.
+4. :only-child – Selects an element that is the only child of its parent.
+
+
+
+
+
+
+-->
+
+</body>
+</html>
