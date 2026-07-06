@@ -1,0 +1,11 @@
+p, ol{
+    color:blueviolet;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:mediumvioletred;
+    font-weight: bold;
+    font-size: 18px;
+}
